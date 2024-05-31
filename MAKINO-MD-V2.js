@@ -6826,10 +6826,10 @@ _Click the button below to download_`
         try {
           await Taira.sendMessage(from, { react: { text: "📄", key: m.key } });
          const helpMenuText = `
-╭════════════════ ⪩
-┃〘 *☛🐦Makino-md-v2☚* 〙
-╰════════════════ ⪨
-╭════════════════ ⪩
+╔═══════════════════❄
+┃〘 *❄️SubZero-md-v2❄️* 〙
+╰═══════════════════❄
+╭═══════════════════✲
 ┃
 ┃   *Uꜱᴇʀ :  ${pushname}*
 ┃   *Time  : ${nowtime}*
@@ -6839,18 +6839,18 @@ _Click the button below to download_`
 ┃   *Pʀᴇꜰɪx : ${prefix}*
 ┃   *Rᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}*
 ┃   *RAM  : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}*
-┃   ⌯CPU :* ${totalCpuUsage}%
-┃   *Developer : Tᴀɪʀᴀ Mᴀᴋɪɴᴏ*
+┃   
+┃   *DEVELOPER : Mʀ Fʀᴀɴᴋ*
 ┃
-╰════════════════ ⪨
+╚══════════════════✲
 
  ✧✧✧✧✧✧✧✧✧✧✧✧✧ 
  
-╭════════════════ ⪩
+╔══════════════════❐
 ┃〘 *Command list* 〙
-╰════════════════ ⪨ ${readmore}
-╭═══════════════ ⪩
-╰╮╰┈➤ *CORE*
+╚════════════════❄ ${readmore}
+╔════════════════❄
+╚   *CORE*
 ╭═══════════════ ⪩
 ┃ • ping   
 ┃ • ʀᴇᴘᴏ 
@@ -7091,7 +7091,7 @@ _Click the button below to download_`
                     text: helpMenuText
                   }),
                   footer: proto.Message.InteractiveMessage.Footer.create({
-                    text: "            🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ"
+                    text: "            ❄️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ"
                   }),
                   header: proto.Message.InteractiveMessage.Header.create({
                     ...(await prepareWAMessageMedia({ image: { url: 'https://graph.org/file/b06744135f2f12ec4b4be.jpg' } }, { upload: Taira.waUploadToServer })),
@@ -7109,16 +7109,16 @@ _Click the button below to download_`
                       },
                       {
                         "name": "cta_url",
-                        "buttonParamsJson": `{"display_text":"REPO 🔗 ","url":"https://github.com/anonphoenix007/MAKINO-MD-V2","merchant_url":"https://github.com/anonphoenix007/MAKINO-MD-V2"}`
+                        "buttonParamsJson": `{"display_text":"REPO 🔗 ","url":"https://github.com/anonphoenix007/MAKINO-MD-V2","merchant_url":"https://github.com/MrFr3nk/MAKINO-MD-V2"}`
 
                       },
                       {
                         "name": "cta_url",
-                        "buttonParamsJson": `{"display_text":"Channel 📰","url":"https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K","merchant_url":"https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K"}`
+                        "buttonParamsJson": `{"display_text":"CHANNEL 📰","url":"https://wa.me/263719647303","merchant_url":"https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K"}`
                       },
                       {
                         "name": "cta_url",
-                        "buttonParamsJson": `{"display_text":"Taira 🫡","url":"https://wa.me/2347080968564","merchant_url":"https://wa.me/2347080968564"}`
+                        "buttonParamsJson": `{"display_text":"MR FRANK🫡","url":"https://wa.me/263719647303","merchant_url":"https://wa.me/263719647303"}`
                       }
                     ]
                   })

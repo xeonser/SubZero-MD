@@ -62,8 +62,8 @@ async function startTaira() {
       "green"
     )
   );
-  console.log(color('\nHello, I am Taira,Developer of MAKINO-V2.\n\nThanks for using: My Bot.', 'aqua'))
-  console.log(color('\n Follow me on GitHub: anonphoenix007', 'aqua'))
+  console.log(color('\nHello, I am MR Frank,Developer of SubZero-V2.\n\nThanks for using: My Bot.', 'aqua'))
+  console.log(color('\n Follow me on GitHub: MrFr3nk', 'aqua'))
 const conf = require("./config");
 async function sess(){
 console.log("")
@@ -273,7 +273,7 @@ Taira.ev.on('group-participants.update', async (anu) => {
           let WAuserName = num
           Tairatext = `
 Hello @${WAuserName.split("@")[0]} 👋,
-MAKINO-MD-V2 by Tᴀɪʀᴀ Mᴀᴋɪɴᴏ Says Welcome 🤗.
+Subzero by Mr Frank Says Welcome 🤗.
 
 Welcome to ${metadata.subject}.
 
@@ -298,7 +298,7 @@ Okay Bye 👋, @${WAuserName.split("@")[0]},
 Another human left🥲!
 
 
-Tᴀɪʀᴀ Mᴀᴋɪɴᴏ says Sayonara 🤧.
+Mr Frank says Sayonara 🤧.
 `
 
           let buttonMessage = {
@@ -451,11 +451,11 @@ return await Taira.forwardMessage(m.sender, quoted,{contextInfo:{ isForwarded: f
         }
         if (connection === "open") {
           console.log("Connection to WhatsApp successful ✅");
-          console.log("Welcome to MAKINO-MD-V2 ✨");
+          console.log("Welcome to Subzero ✨");
           const packageVersion = require("./package.json").version;
           const long = String.fromCharCode(8206);
           const readmore = long.repeat(4001); 
-          let message = `MAKINO-MD-V2 Connected 📎${readmore}\n\nVersion: ${packageVersion}\n\n Default prefix is ${global.prefa}.\nChange your prefix with the setprefix command`
+          let message = `SUBZERO-MD-V2 Connected 📎${readmore}\n\nVersion: ${packageVersion}\n\n Default prefix is ${global.prefa}.\nChange your prefix with the setprefix command`
           await Taira.sendMessage(Taira.user.id, {text: message })
           };
     if (connection === "close") {

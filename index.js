@@ -62,7 +62,7 @@ async function startTaira() {
       "green"
     )
   );
-  console.log(color('\nHello, I am MR Frank,Developer of SubZero-V2.\n\nThanks for using: My Bot.', 'aqua'))
+  console.log(color('\nHello, I am Mr Frank,Developer of SubZero-V2.\n\nThanks for using: My Bot.', 'aqua'))
   console.log(color('\n Follow me on GitHub: MrFr3nk', 'aqua'))
 const conf = require("./config");
 async function sess(){
@@ -273,7 +273,7 @@ Taira.ev.on('group-participants.update', async (anu) => {
           let WAuserName = num
           Tairatext = `
 Hello @${WAuserName.split("@")[0]} 👋,
-Subzero by Mr Frank Says Welcome 🤗.
+I am Subzero by Mr Frank Says Welcome 🤗.
 
 Welcome to ${metadata.subject}.
 
@@ -298,7 +298,7 @@ Okay Bye 👋, @${WAuserName.split("@")[0]},
 Another human left🥲!
 
 
-Mr Frank says Sayonara 🤧.
+Mr Frank says Sayonara, never return Baka!🤧.
 `
 
           let buttonMessage = {

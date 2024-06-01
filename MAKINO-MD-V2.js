@@ -6850,7 +6850,7 @@ _Click the button below to download_`
  
 ╭───────────────⟞
 ┆〘 *Command list* 〙
-╰────────────────⟞ 
+╰──────────────⟞ 
 ${readmore}
 ╭─────────────── ⧉
 ╰⟞⟢   *CORE*

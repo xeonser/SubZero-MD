@@ -15,9 +15,9 @@ global.antitags = false;
 
 //auto functioner
 global.autoTyping = false;                //make true to enable auto typing
-global.autoRecord = true;                //make true to enable auto recording
-global.groupevent = true;                //This is the new variable for controlling group event handling.
-global.statusseen = false;                 //make true to view statuses 
+global.autoRecord = false;                //make true to enable auto recording
+global.groupevent = false;                //This is the new variable for controlling group event handling.
+global.statusseen = true;                 //make true to view statuses 
 
 
 //
@@ -52,7 +52,7 @@ global.sessionName = "session";                          //Do not change.
 
 
 //
-global.prefa = ["/"];
+global.prefa = ["."];
 //process.env.PREFIX || "/";// Prefix                                 //Default prefix here.
 global.openAiAPI = "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";
 

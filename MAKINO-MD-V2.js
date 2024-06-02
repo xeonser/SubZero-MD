@@ -7099,13 +7099,17 @@ ${readmore}
                         "buttonParamsJson": `{"display_text":"REPO 🔗 ","url":"https://github.com/MrFr3nk/MAKINO-MD-V2","merchant_url":"https://github.com/MrFr3nk/MAKINO-MD-V2"}`
 
                       },
+			{
+                        "name": "quick_reply",
+                        "buttonParamsJson": `{"display_text":"MENU 🇿🇼","id":'${prefix}menu'}`
+                      },
                       {
                         "name": "cta_url",
                         "buttonParamsJson": `{"display_text":"CHANNEL 📰","url":"https://whatsapp.com/channel/0029Va965tC84OmF6eA0F93m","merchant_url":"https://whatsapp.com/channel/0029Va965tC84OmF6eA0F93m"}`
                       },
                       {
                         "name": "cta_url",
-                        "buttonParamsJson": `{"display_text":"SUBZERO ❄️","url":"https://wa.me/263719647303","merchant_url":"https://wa.me/263719647303"}`
+                        "buttonParamsJson": `{"display_text":"SUBZERO ❄️","url":"https://wa.me/263788236690","merchant_url":"https://wa.me/263788236690"}`
                       }
                     ]
                   })

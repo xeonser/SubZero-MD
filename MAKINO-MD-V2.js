@@ -810,7 +810,7 @@ const smallinput = budy.toLowerCase();
           caption: teks,
            footer: `${BotName}`,
            buttons: buttons,
-           headerType: 4, */
+           headerType: 4, 
           contextInfo: {
             externalAdreply: {
               title: "☃️Subzero-md-v2 ",

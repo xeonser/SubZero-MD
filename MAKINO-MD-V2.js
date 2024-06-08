@@ -755,7 +755,7 @@ Typed *surrender* to surrender and admited defeat`
   'good night': `Good night to you too ${pushname} 😇. Sleep well and sweet dreams.`,
   'good evening': `Good evening to you too ${pushname} ☺️❤️.`,
   'who': `Let's ask your Father🫳🎤`,
-   OWNER: `wa.me/MrFr3nk`
+   OWNER: `wa.me/263719647303`
 };
 const smallinput = budy.toLowerCase();
 
@@ -800,26 +800,26 @@ const smallinput = budy.toLowerCase();
         Subzero.sendMessage(from, { react: { text: "❤", key: m.key } })
 
         let { data } = await axios.get('https://api.github.com/repos/MrFr3nk/MAKINO-MD-V2');
-        teks = `* ☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ Script*\n\n*Repo Stars*: ${data.stargazers_count}⭐\n*Repo Forks*: ${data.forks_count} forks\n*Repo link*: https://github.com/MrFr3nk/MAKINO-MD-V2\n\nDont forget to follow Me *GitHub* https://github.com/anonphoenix007 and give a ⭐️ to my projects. `
-        /*  let buttons = [
+        teks = `* ☃️Subzero-md-v2  Script*\n\n*Repo Stars*: ${data.stargazers_count}⭐\n*Repo Forks*: ${data.forks_count} forks\n*Repo link*: https://github.com/MrFr3nk/MAKINO-MD-V2\n\nDont forget to follow Me *GitHub* https://github.com/MrFr3nk and give a ⭐️ to my projects. `
+          let buttons = [
           {buttonId: `${prefix}owner`, buttonText: {displayText: '🍁 DEVELOPER 🍁'}, type: 1}
-          ] */
+          ] 
         let buttonMessage = {
           image: Thumb,
           jpegThumbnail: BotLogo,
           caption: teks,
-          /* footer: `${BotName}`,
+           footer: `${BotName}`,
            buttons: buttons,
            headerType: 4, */
           contextInfo: {
             externalAdreply: {
-              title: "☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ",
+              title: "☃️Subzero-md-v2 ",
               body: " ",
               thumbnailUrl: "https://i.postimg.cc/R0kQ0Xdb/IMG-20240322-WA0000.png",
               mediaType: 1,
               //mediaUrl: 'https://wallpapercave.com/wp/wp10524580.jpg',
               //sourceUrl: "https://wallpapercave.com/wp/wp10524580.jpg"
-              mediaUrl: 'github.com/anonphoenix007/MAKINO-MD-V2',
+              mediaUrl: 'github.com/MrFr3nk/MAKINO-MD-V2',
               sourceUrl: "https://whatsapp.com/channel/0029Va965tC84OmF6eA0F93m"
             }
           }
@@ -847,7 +847,7 @@ const smallinput = budy.toLowerCase();
 
           await Subzero.sendMessage(from, { react: { text: "❤", key: m.key } });
 
-          let { data } = await axios.get('https://api.github.com/repos/anonphoenix007/MAKINO-MD-V2');
+          let { data } = await axios.get('https://api.github.com/repos/MrFr3nk/MAKINO-MD-V2');
           let teks = `☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: github.com/anonphoenix007/MAKINO-MD-V2\n\nDon't forget to follow me on *GitHub* and give a ⭐️ to my projects.`;
 
           let msg = generateWAMessageFromContent(m.key.remoteJid, {
@@ -906,8 +906,8 @@ const smallinput = budy.toLowerCase();
       case 'sysinfo': {
 
         const respon = `
-  🤖 *☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ
-        b Server Info* 🤖
+  🤖 *☃️Subzero-md-v2 
+         Server Info* 🤖
   
   *System*: ${systemName}
   
@@ -7078,7 +7078,7 @@ ${readmore}
                     text: helpMenuText
                   }),
                   footer: proto.Message.InteractiveMessage.Footer.create({
-                    text: "            © 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 𝙼𝚁 𝙵𝚁𝙰𝙽𝙺 🚀"
+                    text: "            © 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 𝙼𝚁 𝙵𝚁𝙰𝙽𝙺 "
                   }),
                   header: proto.Message.InteractiveMessage.Header.create({
                     ...(await prepareWAMessageMedia({ image: { url: 'https://i.postimg.cc/R0kQ0Xdb/IMG-20240322-WA0000.png' } }, { upload: Subzero.waUploadToServer })),
@@ -7099,18 +7099,20 @@ ${readmore}
                         "buttonParamsJson": `{"display_text":"REPO 🔗 ","url":"https://github.com/MrFr3nk/MAKINO-MD-V2","merchant_url":"https://github.com/MrFr3nk/MAKINO-MD-V2"}`
 
                       },
-			{
-                        "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"MENU 🇿🇼","id":'${prefix}menu'}`
-                      },
+			                          {
+                        "name": "cta_url",
+                        "buttonParamsJson": `{"display_text":"SUBZERO ❄️","url":"https://wa.me/263788236690","merchant_url":"https://wa.me/263788236690"}`
+						  }
+			
                       {
                         "name": "cta_url",
                         "buttonParamsJson": `{"display_text":"CHANNEL 📰","url":"https://whatsapp.com/channel/0029Va965tC84OmF6eA0F93m","merchant_url":"https://whatsapp.com/channel/0029Va965tC84OmF6eA0F93m"}`
                       },
-                      {
-                        "name": "cta_url",
-                        "buttonParamsJson": `{"display_text":"SUBZERO ❄️","url":"https://wa.me/263788236690","merchant_url":"https://wa.me/263788236690"}`
-                      }
+
+		      {
+                        "name": "quick_reply",
+                        "buttonParamsJson": `{"display_text":"MENU 🇿🇼","id":'${prefix}menu'}`
+                      },
                     ]
                   })
                 })

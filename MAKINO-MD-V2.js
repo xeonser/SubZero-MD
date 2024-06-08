@@ -7099,10 +7099,10 @@ ${readmore}
                         "buttonParamsJson": `{"display_text":"REPO 🔗 ","url":"https://github.com/MrFr3nk/MAKINO-MD-V2","merchant_url":"https://github.com/MrFr3nk/MAKINO-MD-V2"}`
 
                       },
-			                          {
+		      {
                         "name": "cta_url",
                         "buttonParamsJson": `{"display_text":"SUBZERO ❄️","url":"https://wa.me/263788236690","merchant_url":"https://wa.me/263788236690"}`
-						  }
+		      },
 			
                       {
                         "name": "cta_url",

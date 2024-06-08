@@ -6807,25 +6807,27 @@ _Click the button below to download_`
         try {
           await Subzero.sendMessage(from, { react: { text: "🧩", key: m.key } });
          const helpMenuText = `
-╭───────────────⟢  
+         Hi🤓🚀,  ${pushname}*
+         
+╭───────────────߷
 ┃╭─────────────⟢
-┃╏⟣❄️ *𝚂𝚄𝙱𝚉𝙴𝚁𝙾 - 𝙼𝙳* ❄️⟢
+┃╏⟣❄️ *𝚂𝚄𝙱𝚉𝙴𝚁𝙾 - 𝙱𝙾𝙾𝙺𝙱𝙾𝚃* ❄️߷
 ┃╰─────────────⟢
-┃╭──────────────⟢
+┃╭──────────────߷
 ┃╏
-┃╏ ➮  *🧩𝚄𝚂𝙴𝚁    : ${pushname}*
+┃╏ ➮  *🧩𝚂𝚃𝚄𝙳𝙴𝙽𝚃    : ${pushname}*
 ┃╏ ➮  *🌌𝚃𝙸𝙼𝙴    : ${nowtime}*
 ┃╏ ➮  *🛸𝚃𝙾𝙳𝙰𝚈   : ${kaidate}*
 ┃╏ ➮  *🚀𝙾𝚆𝙽𝙴𝚁   : ${global.OwnerName}*
-┃╏ ➮  *💻𝙿𝙻𝚄𝙶𝙸𝙽𝚂 : 400+*
+┃╏ ➮  *💻𝙱𝙾𝙾𝙺𝚂 :  35*
 ┃╏ ➮  *📌𝙿𝚁𝙴𝙵𝙸𝚇  : ${prefix}*
 ┃╏ ➮  *📡𝚁𝚄𝙽𝚃𝙸𝙼𝙴 : ${runtime(process.uptime())}*
 ┃╏        
-┃╰─────────────⟢
+┃╰─────────────߷
 ┃
-┃ *©️ 𝙱𝙾𝚃 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 𝙼𝚁 𝙵𝚁𝙰𝙽𝙺*
-┃   𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙻𝙾𝚅𝙴 𝙱𝚈 𝙳𝙰𝚁𝚁𝙴𝙻𝙻❤️
-╰───────────────⟢
+┃*©️ 𝙱𝙾𝚃 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 𝙼𝚁 𝙵𝚁𝙰𝙽𝙺*
+┃  𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙻𝙾𝚅𝙴 𝙱𝚈 𝙳𝙰𝚁𝚁𝙴𝙻𝙻❤️
+╰───────────────߷
  
  ⟝⟡⟡⟡⟡⟡⟡⟡⟡⟡⟡⟡⟡⟡⟡⟡⟞
  
@@ -6834,233 +6836,55 @@ _Click the button below to download_`
 ╰──────────────⟞ 
 ${readmore}
 ╭─────────────── ⧉
-╰⟞⟢   *CORE*
-╭─────────────── ⧉
-┃ ➮ ping   
-┃ ➮ ʀᴇᴘᴏ 
-┃ ➮ ᴀʟɪᴠᴇ
-┃ ➮ ꜱᴘᴇᴀᴋ
-┃ ➮ ꜱᴜᴘᴘᴏʀᴛ
-┃ ➮ ꜱᴘᴇᴇᴅᴄʜᴇᴄᴋ
-┃ ➮ ꜱᴛᴀʟᴋ
-┃ ➮ ꜱᴇᴛᴘʀᴇꜰɪx
-┃ ➮ ᴛʏᴘɪɴɢ  
-┃ ➮ ᴀᴜᴛᴏ-ꜱᴛᴀᴛᴜꜱ
-┃ ➮ ʀᴇᴄᴏʀᴅɪɴɢ 
-╰──────────────⧉
-╭─────────────── ⧉
-╰      *OWNER*
-╭─────────────── ⧉
-┃ ➮ ᴘᴜʙʟɪᴄ
-┃ ➮ self
-┃ ➮ ʀᴇꜱᴛᴀʀᴛ
-┃ ➮ setppbot
-┃ ➮ ꜱʟᴇᴇᴘ
-┃ ➮ ᴊᴏɪɴ
-┃ ➮ ᴘᴏꜱᴛ
-┃ ➮ ʟɪꜱᴛɢᴄ
-┃ ➮ ʟɪꜱᴛᴘᴄ
-┃ ➮ ʟɪꜱᴛᴏɴʟɪɴᴇ 
-┃ ➮ ʙʀᴏᴀᴅᴄᴀꜱᴛ
-┃ ➮ ʙʏᴇ
-┃ ➮ ʙᴀɴɢʀᴏᴜᴘ 
-┃ ➮ ʙʟᴏᴄᴋ
-┃ ➮ ᴜɴʙʟᴏᴄᴋ
-┃ ➮ ʙᴀɴ ᴀᴅᴅ
-┃ ➮ ʙᴀɴ ᴅᴇʟ
-┃ ➮ getcase
 ┃ ➮ 
-╰────────────── ⧉
-╭─────────────── ⧉
-╰    *GROUP*
-╭─────────────── ⧉
-┃ ➮ ᴘʀᴏᴍᴏᴛᴇ  
-┃ ➮ ᴅᴇᴍᴏᴛᴇ  
-┃ ➮ ɢʀᴏᴜᴘ-ᴇᴠᴇɴᴛ  
-┃ ➮ ɢʀᴏᴜᴘꜱᴇᴛᴛɪɴɢ
-┃ ➮ ɢʀᴏᴜᴘʟɪɴᴋ
-┃ ➮ ɪɴᴠɪᴛᴇ
-┃ ➮ ᴀᴅᴅ
-┃ ➮ kick
-┃ ➮ left
-┃ ➮ ꜱᴇᴛɴᴀᴍᴇ
-┃ ➮ ꜱᴇᴛɢᴄᴘᴘ
-┃ ➮ ꜱᴇᴛᴅᴇꜱᴄ
-┃ ➮ ʀᴇᴠᴏᴋᴇ
-┃ ➮ ᴛᴀɢᴀᴅᴍɪɴꜱ
-┃ ➮ ᴛᴀɢᴀʟʟ
-┃ ➮ ʜɪᴅᴇᴛᴀɢ
-┃ ➮ ɴꜱꜰᴡ 
-┃ ➮ ᴀɴᴛɪʟɪɴᴋɢᴄ 
-┃ ➮ ᴀɴᴛɪʟɪɴᴋᴛᴛ
-┃ ➮ ᴀɴᴛɪʟɪɴᴋʏᴛᴄʜ
-┃ ➮ ᴀɴᴛɪʟɪɴᴋꜰʙ
-┃ ➮ ᴀɴᴛɪʟɪɴᴋɪɢ
-┃ ➮ ᴀɴᴛɪʟɪɴᴋᴛᴡɪᴛ
-┃ ➮ ᴀɴᴛɪᴡᴀᴍᴇ     
-┃ ➮ ᴀɴᴛɪʟɪɴᴋᴀʟʟ     
-╰────────────── ⧉
-╭─────────────── ⧉
-╰     *AI*
-╭─────────────── ⧉
-┃ ➮ ᴄʜᴀᴛɢᴘᴛ 
-┃ ➮ ᴅᴀʟʟᴇ 
-┃ ➮ ꜱᴀʏ
-┃ ➮ ꜰʟɪᴘᴛᴇxᴛ
-┃ ➮ ᴛᴏʟᴇᴛᴛᴇʀ
-┃ ➮ ᴛʀᴀɴꜱʟᴀᴛᴇ
-╰────────────── ⧉
-╭─────────────── ⧉
-╰    *DOWNLOADER*
-╭─────────────── ⧉
-┃ ➮  ᴘʟᴀʏ
-┃ ➮  ᴠɪᴅᴇᴏ
-┃ ➮  ʏᴛᴍᴘ3
-┃ ➮  ʏᴛᴍᴘ4
-┃ ➮  ytvideo
-┃ ➮  ʟʏʀɪᴄꜱ
-┃ ➮  ᴍᴏᴠɪᴇ
-┃ ➮  mediafire
-┃ ➮  ɢᴏᴏɢʟᴇ
-┃ ➮  ɢɪᴍᴀɢᴇ
-┃ ➮  ᴘɪɴᴛᴇʀᴇꜱᴛ
-┃ ➮  ᴡᴀʟʟᴘᴀᴘᴇʀ
-┃ ➮  ʀɪɴɢᴛᴏɴᴇ
-┃ ➮  ɪᴍᴀɢᴇ
-┃ ➮  insta
-┃ ➮  ꜱᴇᴀʀᴄʜ
-┃ ➮  searchgc
-┃ ➮  ꜱᴇᴀʀᴄʜɢᴄ
-┃ ➮  ᴡɪᴋɪᴍᴇᴅɪᴀ
-┃ ➮  ʏᴛᴠɪᴅᴇᴏ
-┃ ➮  ᴍᴇᴅɪᴀꜰɪʀᴇ
-┃ ➮  ɪɴꜱᴛᴀɢʀᴀᴍ
-┃ ➮  ꜰᴀᴄᴇʙᴏᴏᴋ
-┃ ➮  yts
-┃ ➮  ᴛᴡɪᴛᴛᴇʀ
-┃ ➮  ᴛɪᴋᴛᴏᴋ
-┃ ➮  happymod
-╰────────────── ⧉
-╭─────────────── ⧉
-╰    *GAMES*
-╭─────────────── ⧉
-┃ ➮ ᴛᴛᴛ 
-┃ ➮ delttt
-┃ ➮ ᴛɪᴄᴛᴀᴄᴛᴏᴇ   
-┃ ➮ ᴛʀᴜᴛʜ
-┃ ➮ ᴅᴀʀᴇ
-╰────────────── ⧉
-╭─────────────── ⧉
-╰   REACTIONS
-╭─────────────── ⧉
-┃ ➮  ᴄᴜᴅᴅʟᴇ
-┃ ➮  ʜᴜɢ
-┃ ➮  ᴋɪꜱꜱ
-┃ ➮  ʙᴏɴᴋ
-┃ ➮  ᴄʀʏ
-┃ ➮  ʙᴜʟʟʏ
-┃ ➮  ꜱʟᴀᴘ
-┃ ➮  ᴋɪʟʟ
-┃ ➮  ʜᴀᴘᴘʏ
-┃ ➮  ʟɪᴄᴋ
-┃ ➮  ᴘᴀᴛ
-┃ ➮  ꜱᴍᴜɢ
-┃ ➮  ɴᴏᴍ
-┃ ➮  ɢʟᴏᴍᴘ
-┃ ➮  ʙɪᴛᴇ
-┃ ➮  ʏᴇᴇᴛ
-┃ ➮  ʙʟᴜꜱʜ
-┃ ➮  ꜱᴍɪʟᴇ
-┃ ➮  ᴡᴀᴠᴇ
-┃ ➮  ʜɪɢʜꜰɪᴠᴇ
-┃ ➮  ʜᴀɴᴅʜᴏʟᴅ
-┃ ➮  ᴘᴏᴋᴇ
-┃ ➮  ᴡɪɴᴋ
-┃ ➮  ᴅᴀɴᴄᴇ
-┃ ➮  ᴄʀɪɴɢᴇ 
-╰──────────────⧉
-╭────────────── ⧉
-╰     *CONVERTERS*
-╭─────────────── ⧉
-┃ ➮  ꜱᴛɪᴄᴋᴇʀ 
-┃ ➮  ᴛᴏɪᴍɢ
-┃ ➮  toimage
-┃ ➮  ᴛᴏɢɪꜰ
-┃ ➮  ᴜʀʟ
-┃ ➮  ᴛᴏᴍᴘ3
-┃ ➮  ᴛᴏᴀᴜᴅɪᴏ
-┃ ➮  ᴇᴍᴏᴊɪᴍɪx 
-┃ ➮  ꜱᴛᴇᴀʟ 
-┃ ➮  tovv
-┃ ➮  ʙᴀꜱꜱ  
-┃ ➮  ᴛᴇᴍᴘᴏ
-┃ ➮  ʙʟᴏᴡɴ
-┃ ➮  ʀᴏʙᴏᴛ
-┃ ➮  ⬡ꜱʟᴏᴡ
-┃ ➮  ꜱQᴜɪʀʀᴇʟ 
-┃ ➮  ᴅᴇᴇᴘ
-┃ ➮  ᴇᴀʀʀᴀᴘᴇ
-┃ ➮  ꜰᴀꜱᴛ 
-┃ ➮  ꜰᴀᴛ
-┃ ➮  ɴɪɢʜᴛᴄᴏʀᴇ
-┃ ➮  ʀᴇᴠᴇʀꜱᴇ  
-╰───────────────⧉
-╭─────────────── ⧉
-╰     *FUN*
-╭─────────────── ⧉
-┃ ➮  reaction
-┃ ➮  cutecheck
-┃ ➮  couple
-┃ ➮  soulmate
-┃ ➮  handsomecheck
-┃ ➮  beautifulcheck
-┃ ➮  awesomecheck
-┃ ➮  greatcheck
-┃ ➮  gaycheck
-┃ ➮  uglycheck
-┃ ➮  charactercheck
-┃ ➮  lesbiancheck
-┃ ➮  hornychec
-┃ ➮  prettycheck
-┃ ➮  lovelycheck
-╰───────────────⧉
-╭─────────────── ⧉
-╰⟞⟢  *Anime/Weebs*
-╭─────────────── ⧉
-┃ ➮  ᴀɴɪᴍᴇ
-┃ ➮  ᴀɴɪᴍᴇꜱᴛᴏʀʏ 
-┃ ➮  ᴀᴡᴏᴏ
-┃ ➮  ᴍᴀɴɢᴀ 
-┃ ➮  ᴀɴɪᴍᴇᴡᴀʟʟ
-┃ ➮  ᴀɴɪᴍᴇᴡᴀʟʟᴘᴀᴘᴇʀ2  
-┃ ➮  ᴄᴏꜱᴘʟᴀʏ
-┃ ➮  ᴀɴɪᴍᴇɴᴏᴍ
-┃ ➮  ꜰᴇᴇᴅ
-┃ ➮  ꜰᴏxɢɪʀʟ
-┃ ➮  ᴡᴀɪꜰᴜ
-┃ ➮  ᴡᴀɪꜰᴜ2 
-┃ ➮  ᴡᴀɪꜰᴜ3 
-┃ ➮  ʟᴏʟɪ
-┃ ➮  ᴄᴏꜰꜰᴇᴇ
-┃ ➮  ᴛɪᴄᴋʟᴇ
-┃ ➮  ᴍᴇᴏᴡ
-┃ ➮  ɴᴇᴋᴏ
-┃ ➮  ɴᴇᴋᴏ2 
-┃ ➮  ᴍɪɢᴜᴍɪɴ  
-┃ ➮  ᴡᴀʟʟᴘᴀᴘᴇʀ  
-┃ ➮  ᴀɴɪᴍᴇQᴜᴏᴛᴇ  
-╰──────────────── ⧉
-╭────────────── ⧉
-╰      *ADDITIONAL*
-╭─────────────── ⧉
-┃ ➮  Qᴜᴏᴛᴇꜱ 
-┃ ➮  ᴡɪᴋɪ
-┃ ➮  ꜱᴛᴀʟᴋɴᴜᴍʙᴇʀ 
-┃ ➮  ɢʜᴘʀᴏꜰɪʟᴇ
-┃ ➮  ꜱᴛɪᴄᴋᴇʀᴍᴇᴍᴇ
-┃ ➮  ᴀꜰᴋ
-┃ ➮  ᴅᴀʀᴋᴊᴏᴋᴇ
-┃ ➮  report
+┃ ➮ 
+┃ ➮
+┃ ➮ 
+┃ ➮ 
+┃ ➮ 
+┃ ➮ 
+┃ ➮  
+┃ ➮  
+┃ ➮   
+┃ ➮  
+┃ ➮  
+┃ ➮    
+┃ ➮  
+┃ ➮  
+┃ ➮  
+┃ ➮  
+┃ ➮   
+┃ ➮  
+┃ ➮  
+┃ ➮   
+┃ ➮  
+┃ ➮  
+┃ ➮  
+┃ ➮ 
+┃ ➮  
+┃ ➮  
+┃ ➮  
+┃ ➮  
+┃ ➮  
+┃ ➮  
+┃ ➮  
+┃ ➮
+┃ ➮  
+┃ ➮
+┃ ➮  
+┃ ➮  
+┃ ➮  
+┃ ➮  
+┃ ➮    
+┃ ➮    
+┃ ➮    
+┃ ➮  
+┃ ➮   
+┃ ➮  
+┃ ➮  
+┃ ➮  
+┃ ➮  
+┃ ➮  
 ┃
 ┃     © 𝙱𝙾𝚃 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 𝙼𝚁 𝙵𝚁𝙰𝙽𝙺
 ┃         𝚂𝚄𝙱𝚉𝙴𝚁𝙾 𝙸𝙽𝙲.
@@ -7092,26 +6916,59 @@ ${readmore}
                     buttons: [
                       {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"OWNER 🚀","id":'${prefix}owner'}`
+                        "buttonParamsJson": `{"display_text":"OWNER🛸","id":'${prefix}owner'}`
                       },
+                      
                       {
-                        "name": "cta_url",
-                        "buttonParamsJson": `{"display_text":"REPO 🔗 ","url":"https://github.com/MrFr3nk/MAKINO-MD-V2","merchant_url":"https://github.com/MrFr3nk/MAKINO-MD-V2"}`
-
-                      },
-		      {
-                        "name": "cta_url",
-                        "buttonParamsJson": `{"display_text":"SUBZERO ❄️","url":"https://wa.me/263788236690","merchant_url":"https://wa.me/263788236690"}`
-		      },
-			
-                      {
-                        "name": "cta_url",
-                        "buttonParamsJson": `{"display_text":"CHANNEL 📰","url":"https://whatsapp.com/channel/0029Va965tC84OmF6eA0F93m","merchant_url":"https://whatsapp.com/channel/0029Va965tC84OmF6eA0F93m"}`
-                      },
-
-		      {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"MENU 🇿🇼","id":'${prefix}menu'}`
+                        "buttonParamsJson": `{"display_text":"ENGLISH 🤓","id":'${prefix}owner'}`
+                      },
+                     
+                     {
+                        "name": "quick_reply",
+                        "buttonParamsJson": `{"display_text":"GEOGRAPHY 🏜","id":'${prefix}owner'}`
+                      },
+                      
+                      {
+                        "name": "quick_reply",
+                        "buttonParamsJson": `{"display_text":"ACCOUNTS 📖","id":'${prefix}owner'}`
+                      },
+                      
+                      {
+                        "name": "quick_reply",
+                        "buttonParamsJson": `{"display_text":"SHONA 🐦","id":'${prefix}owner'}`
+                      },
+                      
+                      {
+                        "name": "quick_reply",
+                        "buttonParamsJson": `{"display_text":"BOILOGY ☃️","id":'${prefix}owner'}`
+                      },
+                      
+                      {
+                        "name": "quick_reply",
+                        "buttonParamsJson": `{"display_text":"CHEMISTRY 🗻","id":'${prefix}owner'}`
+                      },
+                      
+                      {
+                        "name": "quick_reply",
+                        "buttonParamsJson": `{"display_text":"PHYSICS 🌋","id":'${prefix}owner'}`
+                      },
+                      
+		              {
+                        "name": "quick_reply",
+                        "buttonParamsJson": `{"display_text":"HISTORY 📑","id":'${prefix}owner'}`
+                      },
+                      
+			
+               {
+                        "name": "quick_reply",
+                        "buttonParamsJson": `{"display_text":"PRACTICALS 🐾","id":'${prefix}owner'}`
+                      },
+                      
+
+		         {
+                         "name": "quick_reply",
+                        "buttonParamsJson": `{"display_text":"MORE BOOKS 📚","id":'books'}`
                       },
                     ]
                   })

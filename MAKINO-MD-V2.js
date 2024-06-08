@@ -1968,7 +1968,7 @@ break;
               from,
               {
                 text: "Anime Search",
-                footer: '☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ',
+                footer: '☃️Subzero-md-v2 ',
                 title: OwnerName,
                 buttonText: "Search Results",
                 sections
@@ -1986,7 +1986,7 @@ break;
         if (isBanChat) return reply(mess.bangc);
 
         if (!args[0]) {
-          return reply(`Please provide a message to chat with the AI chatbot. Example: ${prefix}chat How are you?`);
+          return reply(`Please provide a message to chat with the AI chatbot. Example: ${prefix}chat How are you subzero?`);
         }
 
         const message = encodeURIComponent(args.join(' '));
@@ -6805,7 +6805,7 @@ _Click the button below to download_`
         if (isBanChat) return reply(mess.bangc);
 
         try {
-          await Subzero.sendMessage(from, { react: { text: "🇿🇼", key: m.key } });
+          await Subzero.sendMessage(from, { react: { text: "🧩", key: m.key } });
          const helpMenuText = `
 ╭───────────────⟢  
 ┃╭─────────────⟢

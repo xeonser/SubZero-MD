@@ -738,6 +738,14 @@ Typed *surrender* to surrender and admited defeat`
     if (responses.hasOwnProperty(smallinput)) {
       reply(responses[smallinput]);
     }*/
+	  
+if (smallinput.includes('maths')) {
+  const url = '(https://www.mediafire.com/file/rwtoe2qs4bsdid5/FORM_4_GEOGRAPHY.pdf/file?dkey=j8rzv0lphoy&r=436)'; // replace with the actual URL
+  reply(document: await downloadFile(url));
+} else if (smallinput.includes('good) {
+  reply (`Good night to you too ${pushname} 😇. Sleep well and sweet dreams.`);
+}
+
    const responses = {
    
   hello: `Hello ${pushname}, I am ${BotName}. My current prefix is "${prefix}". How can I help you?`,

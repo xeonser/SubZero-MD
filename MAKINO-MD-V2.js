@@ -6180,7 +6180,7 @@ _Click the button below to download_`
         ]
         let buttonssMessages = {
           image: { url: waifudd.data.url },
-          caption: `☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `☃️Subzero-md-v2 `,
           footer: `${global.BotName}`,
           buttons: wbuttsss,
           headerType: 4
@@ -6807,34 +6807,32 @@ _Click the button below to download_`
         try {
           await Subzero.sendMessage(from, { react: { text: "🧩", key: m.key } });
          const helpMenuText = `
-         Hi🤓🚀,  ${pushname}*
+         > Hi🤓🚀,  ${pushname}*
          
 ╭───────────────߷
 ┃╭─────────────⟢
-┃╏⟣❄️ *𝚂𝚄𝙱𝚉𝙴𝚁𝙾 - 𝙱𝙾𝙾𝙺𝙱𝙾𝚃* ❄️߷
+┃╏⟣📚 *𝙱𝙾𝙾𝙺-𝙱𝙾𝚃* 📚 ߷
 ┃╰─────────────⟢
 ┃╭──────────────߷
 ┃╏
-┃╏ ➮  *🧩𝚂𝚃𝚄𝙳𝙴𝙽𝚃    : ${pushname}*
-┃╏ ➮  *🌌𝚃𝙸𝙼𝙴    : ${nowtime}*
-┃╏ ➮  *🛸𝚃𝙾𝙳𝙰𝚈   : ${kaidate}*
-┃╏ ➮  *🚀𝙾𝚆𝙽𝙴𝚁   : ${global.OwnerName}*
-┃╏ ➮  *💻𝙱𝙾𝙾𝙺𝚂 :  35*
-┃╏ ➮  *📌𝙿𝚁𝙴𝙵𝙸𝚇  : ${prefix}*
-┃╏ ➮  *📡𝚁𝚄𝙽𝚃𝙸𝙼𝙴 : ${runtime(process.uptime())}*
+┃╏ ➮  *𝚂𝚃𝚄𝙳𝙴𝙽ᴛ : ${pushname}*
+┃╏ ➮  *𝚃𝙸𝙼𝙴    : ${nowtime}*
+┃╏ ➮  *𝚃𝙾𝙳𝙰𝚈   : ${kaidate}*
+┃╏ ➮  *𝙾𝚆𝙽𝙴𝚁   : ${global.OwnerName}*
+┃╏ ➮  *𝙱𝙾𝙾𝙺𝚂   : 35*
+┃╏ ➮  *𝙿𝚁𝙴𝙵𝙸𝚇  : ${prefix}*
+┃╏ ➮  *𝚁𝚄𝙽𝚃𝙸𝙼𝙴 : ${runtime(process.uptime())}*
 ┃╏        
 ┃╰─────────────߷
 ┃
-┃*©️ 𝙱𝙾𝚃 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 𝙼𝚁 𝙵𝚁𝙰𝙽𝙺*
-┃  𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙻𝙾𝚅𝙴 𝙱𝚈 𝙳𝙰𝚁𝚁𝙴𝙻𝙻❤️
+┃  *©️ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 𝙼𝚁 𝙵𝚁𝙰𝙽𝙺*
 ╰───────────────߷
  
  ⟝⟡⟡⟡⟡⟡⟡⟡⟡⟡⟡⟡⟡⟡⟡⟡⟞
  
 ╭──────────────⟞
-┆〘 *Command list* 〙
+┆〘 *TextBooks Avail* 〙
 ╰──────────────⟞ 
-${readmore}
 ╭─────────────── ⧉
 ┃ ➮ 
 ┃ ➮ 
@@ -6886,8 +6884,8 @@ ${readmore}
 ┃ ➮  
 ┃ ➮  
 ┃
-┃     © 𝙱𝙾𝚃 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 𝙼𝚁 𝙵𝚁𝙰𝙽𝙺
-┃         𝚂𝚄𝙱𝚉𝙴𝚁𝙾 𝙸𝙽𝙲.
+┃ © 𝙱𝙾𝚃 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 𝙼𝚁 𝙵𝚁𝙰𝙽𝙺
+┃       𝚂𝚄𝙱𝚉𝙴𝚁𝙾 𝙸𝙽𝙲.
 ╰─────────────── ⧉`;
 
           let msg = generateWAMessageFromContent(m.key.remoteJid, {
@@ -6908,7 +6906,7 @@ ${readmore}
                     ...(await prepareWAMessageMedia({ image: { url: 'https://i.postimg.cc/R0kQ0Xdb/IMG-20240322-WA0000.png' } }, { upload: Subzero.waUploadToServer })),
 
 
-                    title: "                      Command list",
+                    title: "                      Textbooks list",
                     subtitle: "Browse through the available commands",
                     hasMediaAttachment: false
                   }),
@@ -6921,48 +6919,48 @@ ${readmore}
                       
                       {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"ENGLISH 🤓","id":'${prefix}owner'}`
+                        "buttonParamsJson": `{"display_text":"ENGLISH 🤓","id":'english'}`
                       },
                      
                      {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"GEOGRAPHY 🏜","id":'${prefix}owner'}`
+                        "buttonParamsJson": `{"display_text":"GEOGRAPHY 🏜","id":'geo'}`
                       },
                       
                       {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"ACCOUNTS 📖","id":'${prefix}owner'}`
+                        "buttonParamsJson": `{"display_text":"ACCOUNTS 📖","id":'acc'}`
                       },
                       
                       {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"SHONA 🐦","id":'${prefix}owner'}`
+                        "buttonParamsJson": `{"display_text":"SHONA 🐦","id":'shona'}`
                       },
                       
                       {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"BOILOGY ☃️","id":'${prefix}owner'}`
+                        "buttonParamsJson": `{"display_text":"BOILOGY ☃️","id":'${prefix}bio'}`
                       },
                       
                       {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"CHEMISTRY 🗻","id":'${prefix}owner'}`
+                        "buttonParamsJson": `{"display_text":"CHEMISTRY 🗻","id":'${prefix}chem'}`
                       },
                       
                       {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"PHYSICS 🌋","id":'${prefix}owner'}`
+                        "buttonParamsJson": `{"display_text":"PHYSICS 🌋","id":'physics'}`
                       },
                       
 		              {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"HISTORY 📑","id":'${prefix}owner'}`
+                        "buttonParamsJson": `{"display_text":"HISTORY 📑","id":'history'}`
                       },
                       
 			
                {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"PRACTICALS 🐾","id":'${prefix}owner'}`
+                        "buttonParamsJson": `{"display_text":"PRACTICALS 🐾","id":'pracs'}`
                       },
                       
 

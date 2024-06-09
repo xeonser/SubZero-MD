@@ -755,7 +755,15 @@ Typed *surrender* to surrender and admited defeat`
   'good night': `Good night to you too ${pushname} 😇. Sleep well and sweet dreams.`,
   'good evening': `Good evening to you too ${pushname} ☺️❤️.`,
   'who': `Let's ask your Father🫳🎤`,
-   OWNER: `wa.me/263719647303`
+
+	     'maths': `mathematics is it`,
+	     'geo': `geo it iss`,
+	     'acc': `accounts is it`,
+   OWNER: `wa.me/263719647303`,
+	   
+	   //books
+	   
+	   
 };
 const smallinput = budy.toLowerCase();
 

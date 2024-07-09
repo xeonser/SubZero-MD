@@ -6834,12 +6834,12 @@ _Click the button below to download_`
 > ᴄᴘᴜ ᴜsᴀɢᴇ :  *${totalCpuUsage}%*
 
 - ʙᴏᴛ ɴᴀᴍᴇ: subzero-md-v3
-- ᴏᴡɴᴇʀ ɴᴀᴍᴇ : *${global.OwnerName}*
-- ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ : 263719647303
+- ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ${global.OwnerName}
+- ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ:263719647303
 - ᴡᴏʀᴋ ᴛʏᴘᴇ : all chats
 - ᴡᴏʀᴋ ᴍᴏᴅᴇ : public
 
-────────────────
+────────────────────
 
 ${readmore}
 

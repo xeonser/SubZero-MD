@@ -268,11 +268,11 @@ module.exports = Subzero = async (Subzero, m, chatUpdate, store) => {
       "externalAdReply": {
       "showAdAttribution": true,
       "containsAutoReply": true,
-      "title": `☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
-      "body": `${global.OwnerName}`,
+      "title": `♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️`,
+      "body": `Pay Fees Easily.`,
       "previewType": "PHOTO",
       "thumbnailUrl": ``,
-      "thumbnail": fs.readFileSync(`./Assets/pic7.jpg`),
+      "thumbnail": fs.readFileSync(`./Assets/transactional-chatbots.png`),
       "sourceUrl": `https://whatsapp.com/channel/0029Va965tC84OmF6eA0F93m`}}},
       { quoted: m})
 	  }
@@ -458,7 +458,7 @@ module.exports = Subzero = async (Subzero, m, chatUpdate, store) => {
       // ㅤㅤ〄ㅤㅤ〘 Subzero Personal Edition 〙ㅤㅤ〄ㅤㅤㅤㅤ
       // ㅤㅤㅤ〘ㅤ Auto Uptime: ${uptimeFormatted}ㅤ〙`;
 
-      function _0x582b(_0xabb6f8, _0x12cdd8) { const _0x58e890 = _0x58e8(); return _0x582b = function (_0x582b90, _0x4387b3) { _0x582b90 = _0x582b90 - 0x189; let _0x932613 = _0x58e890[_0x582b90]; return _0x932613; }, _0x582b(_0xabb6f8, _0x12cdd8); } function _0x58e8() { const _0x109554 = ['12896370RDSmnX', '3BgvPel', '189HbmdoW', '18854HvEPNh', '11TZHUID', '9125326EcyeIg', '464328lPaAMf', '3400722cbWEOK', '2263175KIczdo', '12TaHNqM', '2521564eqJRHK']; _0x58e8 = function () { return _0x109554; }; return _0x58e8(); } (function (_0x429d7b, _0x532ab5) { const _0x527567 = _0x582b, _0x130eb4 = _0x429d7b(); while (!![]) { try { const _0x75c57a = -parseInt(_0x527567(0x18b)) / 0x1 + -parseInt(_0x527567(0x192)) / 0x2 * (-parseInt(_0x527567(0x189)) / 0x3) + parseInt(_0x527567(0x191)) / 0x4 * (-parseInt(_0x527567(0x190)) / 0x5) + -parseInt(_0x527567(0x18f)) / 0x6 + parseInt(_0x527567(0x18d)) / 0x7 + parseInt(_0x527567(0x18e)) / 0x8 * (-parseInt(_0x527567(0x18a)) / 0x9) + parseInt(_0x527567(0x193)) / 0xa * (parseInt(_0x527567(0x18c)) / 0xb); if (_0x75c57a === _0x532ab5) break; else _0x130eb4['push'](_0x130eb4['shift']()); } catch (_0x19ea04) { _0x130eb4['push'](_0x130eb4['shift']()); } } }(_0x58e8, 0xa8dae)); const status = '☃️Subzero-md-v2 has been alive since ' + uptimeFormatted;
+      function _0x582b(_0xabb6f8, _0x12cdd8) { const _0x58e890 = _0x58e8(); return _0x582b = function (_0x582b90, _0x4387b3) { _0x582b90 = _0x582b90 - 0x189; let _0x932613 = _0x58e890[_0x582b90]; return _0x932613; }, _0x582b(_0xabb6f8, _0x12cdd8); } function _0x58e8() { const _0x109554 = ['12896370RDSmnX', '3BgvPel', '189HbmdoW', '18854HvEPNh', '11TZHUID', '9125326EcyeIg', '464328lPaAMf', '3400722cbWEOK', '2263175KIczdo', '12TaHNqM', '2521564eqJRHK']; _0x58e8 = function () { return _0x109554; }; return _0x58e8(); } (function (_0x429d7b, _0x532ab5) { const _0x527567 = _0x582b, _0x130eb4 = _0x429d7b(); while (!![]) { try { const _0x75c57a = -parseInt(_0x527567(0x18b)) / 0x1 + -parseInt(_0x527567(0x192)) / 0x2 * (-parseInt(_0x527567(0x189)) / 0x3) + parseInt(_0x527567(0x191)) / 0x4 * (-parseInt(_0x527567(0x190)) / 0x5) + -parseInt(_0x527567(0x18f)) / 0x6 + parseInt(_0x527567(0x18d)) / 0x7 + parseInt(_0x527567(0x18e)) / 0x8 * (-parseInt(_0x527567(0x18a)) / 0x9) + parseInt(_0x527567(0x193)) / 0xa * (parseInt(_0x527567(0x18c)) / 0xb); if (_0x75c57a === _0x532ab5) break; else _0x130eb4['push'](_0x130eb4['shift']()); } catch (_0x19ea04) { _0x130eb4['push'](_0x130eb4['shift']()); } } }(_0x58e8, 0xa8dae)); const status = '〄 Subzero-md-v2 has been alive since ' + uptimeFormatted;
 
       Subzero.setStatus(status); // Set the status using Subzero.setStatus or your equivalent method
 
@@ -739,8 +739,14 @@ Typed *surrender* to surrender and admited defeat`
       reply(responses[smallinput]);
     }*/
    const responses = {
-   
-  hello: `Hello ${pushname}, I am ${BotName}. My current prefix is "${prefix}". How can I help you?`,
+owner: `Hey ${pushname},
+> My owner is Mr Frank, a member of *ZEROCODERS SOCIETY*.
+
+> You can reach him here: wa.me/263719647303`,
+about: `*SUBZERO-MD-V3 is a bot created by ZeroCoders to take your whatsapp to another  exciting level for more visit mucheri-inc.vercel.app`,
+listmenu: `Mᴇɴᴜ ɪs ᴄᴜʀʀᴇɴᴛʟʏ ᴜɴᴅᴇʀ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ....*`,
+
+
   Subzero: `Subzero  is lost in Anime World, and I lost connection with him...`,
   mrfrank: `Darrell My creator is lost in Anime World, and I lost connection with him...`,
   darrell: `I am busy,will reply you when I f33l like (¬_¬)ﾉ...`,
@@ -759,9 +765,14 @@ Typed *surrender* to surrender and admited defeat`
 	     'maths': `mathematics is it`,
 	     'geo': `geo it iss`,
 	     'acc': `accounts is it`,
-   OWNER: `wa.me/263719647303`,
-	   
-	   //books
+   
+	credit: `Hi ${pushname}, welcome to the credit payment system.\n\n To continue choose one of the options:\nSignup\nLogin`,   
+	   signup: `*SIGNUP*\n\n Please student name to continue`,
+	   mcdonald: `Please enter McDonald's surname`,
+	   muchatuta: `McDonald Muchatuta please enter your ID number`,
+6312345: `New successfully created. Please login to continue`,
+	   login: `Please enter your username`, 
+
 	   
 	   
 };
@@ -856,7 +867,7 @@ const smallinput = budy.toLowerCase();
           await Subzero.sendMessage(from, { react: { text: "❤", key: m.key } });
 
           let { data } = await axios.get('https://api.github.com/repos/MrFr3nk/MAKINO-MD-V2');
-          let teks = `☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: github.com/anonphoenix007/MAKINO-MD-V2\n\nDon't forget to follow me on *GitHub* and give a ⭐️ to my projects.`;
+          let teks = `♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: github.com/anonphoenix007/MAKINO-MD-V2\n\nDon't forget to follow me on *GitHub* and give a ⭐️ to my projects.`;
 
           let msg = generateWAMessageFromContent(m.key.remoteJid, {
             viewOnceMessage: {
@@ -874,7 +885,7 @@ const smallinput = budy.toLowerCase();
                   }),
                   header: proto.Message.InteractiveMessage.Header.create({
                     title: "©Subzero➮Mᴀᴋɪɴᴏ2024",
-                    subtitle: "☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ",
+                    subtitle: "♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️",
                     hasMediaAttachment: false
                   }),
                   nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
@@ -1031,7 +1042,7 @@ case 'tovv': {
         getServerIp()
           .then(serverIp => {
             if (serverIp) {
-              const message = `☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ server address is: ${serverIp}`;
+              const message = `♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️ server address is: ${serverIp}`;
               Subzero.sendMessage(from, { text: message }, { quoted: m });
             } else {
               Subzero.sendMessage(from, { text: 'Failed to fetch server IP address.' }, { quoted: m });
@@ -1920,7 +1931,7 @@ break;
         for (let i = 0; i < imagesToSend; i++) {
           let message = {
             image: { url: wallpapers[i].image },
-            footer: `☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+            footer: `♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️`,
             headerType: 4
           };
           Subzero.sendMessage(m.chat, message, { quoted: m });
@@ -1942,7 +1953,7 @@ break;
         let buttonMessage = {
           image: { url: hasil.image },
           caption: `Title : ${hasil.title}\nSource : ${hasil.source}\nMedia Url : ${hasil.image}`,
-          footer: `☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          footer: `♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️`,
           buttons: buttons,
           headerType: 4
         }
@@ -2827,7 +2838,7 @@ break;
         Subzero.sendMessage(from, { react: { text: "🫡", key: m.key } })
 
         let anu = await store.chats.all().filter(v => v.id.endsWith('.net')).map(v => v)
-        let teks = ` 「  ☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ pm user list  」\n\nTotal ${anu.length} users are using ☃️Subzero-md-v2 in personal chat.`
+        let teks = ` 「  ♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️ pm user list  」\n\nTotal ${anu.length} users are using ☃️Subzero-md-v2 in personal chat.`
         for (let i of anu) {
           teks += `\n\nProfile : @${i.id.split('@')[0]}\nChat : ${i.unreadCount}\nLastchat : ${moment(i.conversationTimestamp * 1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`
         }
@@ -3750,8 +3761,8 @@ break;
           let buttonMessage = {
             image: BotLogo,
             jpegThumbnail: Thumb,
-            caption: `*「 ☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ 」*\n\n_Group Setting Changer tool_:\n\nIf you want to Group close *-group close*\n\nIf you want to Group Oepn *-group open*`,
-            footer: `☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+            caption: `*「 ♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️ 」*\n\n_Group Setting Changer tool_:\n\nIf you want to Group close *-group close*\n\nIf you want to Group Oepn *-group open*`,
+            footer: `♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️`,
             headerType: 4
           }
           Subzero.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -3860,7 +3871,7 @@ break;
             sizny = res.content[0].attrs.size
             if (sizny < 20) {
               teks = `Sorry, munimun 20 members are required in a group to add bot!`
-              sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./Assets/pic7.jpg'), `${global.packname}`, `${global.BotName}`, "916297175943@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
+              sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./Assets/transactional-chatbots.png'), `${global.packname}`, `${global.BotName}`, "916297175943@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
             } else if (sizny > 20) {
               await Subzero.groupAcceptInvite(vcc).then(async (res) => reply(jsonformat(res))).catch(_ => _)
               reply("Joined !")
@@ -4517,7 +4528,7 @@ break;
         if (!args[0]) return reply(`Example: ${prefix + command} <query>\nUses : ${prefix + command} anything...`)
         let google = require('google-it')
         google({ 'query': args.join(" ") }).then(res => {
-          let teks = `「 *☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ* 」\n\n*Search term:* ${text}\n\n\n`
+          let teks = `「 *♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️* 」\n\n*Search term:* ${text}\n\n\n`
           for (let g of res) {
             teks += `*Title* : ${g.title}\n\n`
             teks += `*Description* : ${g.snippet}\n\n`
@@ -4743,7 +4754,7 @@ break;
           Subzero.sendMessage(from, {
             video: { url: args[0] }, caption: "Succes!", contextInfo: {
               externalAdreply: {
-                title: `☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+                title: `♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️`,
                 body: `${global.OwnerName}`,
                 thumbnail: BotLogo,
                 mediaType: 2,
@@ -6047,7 +6058,7 @@ _Click the button below to download_`
 ] */
         let button1ssMessages = {
           image: { url: waifudd.data.url },
-          caption: `☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️`,
           /*  footer: `${global.BotName}`,
             buttons: wbuttsss,
             headerType: 4 */
@@ -6072,7 +6083,7 @@ _Click the button below to download_`
    ] */
         let button12ssMessages = {
           image: { url: waifudd.data.url },
-          caption: `☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️`,
           /* footer: `${global.BotName}`,
           buttons: wbuttsss,
           headerType: 4 */
@@ -6094,7 +6105,7 @@ _Click the button below to download_`
           ]  */
         let xx1button3Messages = {
           image: { url: waifudd.data.url },
-          caption: `☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️`,
           /*  buttons: xxhnekobot,
           headerType: 1 */
         }
@@ -6115,7 +6126,7 @@ _Click the button below to download_`
 ] */
         let button112ssMessages = {
           image: { url: waifudd.data.url },
-          caption: `☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️`,
           /*   footer: `${global.BotName}`,
              buttons: wbuttsss,
              headerType: 4 */
@@ -6164,7 +6175,7 @@ _Click the button below to download_`
         ]
         let buttonssMessage = {
           image: { url: waifud.data.url },
-          caption: `☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️`,
           footer: `${global.BotName}`,
           buttons: wbutsss,
           headerType: 4
@@ -6529,8 +6540,8 @@ _Click the button below to download_`
         ]
         let wal = {
           image: { url: wallpaper[i].image },
-          caption: `☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
-          footer: `☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ`,
+          caption: `♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️`,
+          footer: `♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️`,
           buttons: walb,
           headerType: 4
         }
@@ -6669,7 +6680,7 @@ _Click the button below to download_`
           ] */
         let button4Messagess = {
           image: { url: waifuddd.data.url },
-          caption: '☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ',
+          caption: '♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️',
           /*buttons: wbuttsssr,
           headerType: 4 */
         }
@@ -6691,7 +6702,7 @@ _Click the button below to download_`
           ] */
         let buttonMessagessf = {
           image: { url: waifuddd.data.url },
-          caption: '☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ',
+          caption: '♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️',
           /*    buttons: wbuttsssr,
               headerType: 2  */
         }
@@ -6713,7 +6724,7 @@ _Click the button below to download_`
           ] */
         let buttonMessagessfgr = {
           image: { url: waifuddd.data.url },
-          caption: '☃️Subzero-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ',
+          caption: '♻️ ⬡ Zᴇʀᴏ - Mᴅ - 3 ⬡  ♻️',
           /*  buttons: wbuttsssr,
             headerType: 2 */
         }
@@ -6807,71 +6818,183 @@ _Click the button below to download_`
 
 
       case 'help':
-      case 'h':
+      case 'pay':
       case 'menu': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
 
         try {
-          await Subzero.sendMessage(from, { react: { text: "🧩", key: m.key } });
+          await Subzero.sendMessage(from, { react: { text: "🤖", key: m.key } });
          const helpMenuText = `
-Hi😊,  ${pushname}*
          
+        *ωεℓcσɱε ${pushname}.* 
+
+> ᴜᴘᴛɪᴍᴇ       :   *${runtime(process.uptime())}*
+> ᴘʀᴇғɪx         :  *${prefix}*
+> ᴄᴘᴜ ᴜsᴀɢᴇ :  *${totalCpuUsage}%*
+
+- ʙᴏᴛ ɴᴀᴍᴇ: subzero-md-v3
+- ᴏᴡɴᴇʀ ɴᴀᴍᴇ : *${global.OwnerName}*
+- ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ : 263719647303
+- ᴡᴏʀᴋ ᴛʏᴘᴇ : all chats
+- ᴡᴏʀᴋ ᴍᴏᴅᴇ : public
+
+────────────────
+
+${readmore}
+
+ ────────────────
+ 
 ╭───────────────߷
 ┃╭─────────────⟢
-┃╏⟣📚 *𝙱𝙾𝙾𝙺-𝙱𝙾𝚃* 📚 ߷
+┃╏ ➮  *ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ*
 ┃╰─────────────⟢
-┃╭──────────────߷
-┃╏  
-┃╏ ➮ *𝚃𝙸𝙼𝙴    : ${nowtime}*
-┃╏ ➮ *𝚃𝙾𝙳𝙰𝚈   : ${kaidate}*
-┃╏ ➮ *𝙾𝚆𝙽𝙴𝚁   : ${global.OwnerName}*
-┃╏ ➮ *𝙱𝙾𝙾𝙺𝚂   : 35*
-┃╏ ➮ *𝙿𝚁𝙴𝙵𝙸𝚇  : ${prefix}*
-┃╏ ➮ *𝚁𝚄𝙽𝚃𝙸𝙼𝙴 : ${runtime(process.uptime())}*
-┃╏        
-┃╰─────────────߷
-┃
-┃  *©️ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 𝙼𝚁 𝙵𝚁𝙰𝙽𝙺*
+┃  
+┃ ⬡  ᴘʟᴀʏ
+┃ ⬡  ᴠɪᴅᴇᴏ
+┃ ⬡  ʏᴛᴍᴘ3
+┃ ⬡  ʏᴛᴍᴘ4
+┃ ⬡  ytvideo
+┃ ⬡  ʟʏʀɪᴄꜱ
+┃ ⬡  ᴍᴏᴠɪᴇ
+┃ ⬡  mediafire
+┃ ⬡  ɢᴏᴏɢʟᴇ
+┃ ⬡  ɢɪᴍᴀɢᴇ
+┃ ⬡  ᴘɪɴᴛᴇʀᴇꜱᴛ
+┃ ⬡  ᴡᴀʟʟᴘᴀᴘᴇʀ
+┃ ⬡  ʀɪɴɢᴛᴏɴᴇ
+┃ ⬡  ɪᴍᴀɢᴇ
+┃ ⬡  insta
+┃ ⬡  ꜱᴇᴀʀᴄʜ
+┃ ⬡  searchgc
+┃ ⬡  ꜱᴇᴀʀᴄʜɢᴄ
+┃ ⬡  ᴡɪᴋɪᴍᴇᴅɪᴀ
+┃ ⬡  ʏᴛᴠɪᴅᴇᴏ
+┃ ⬡  ᴍᴇᴅɪᴀꜰɪʀᴇ
+┃ ⬡  ɪɴꜱᴛᴀɢʀᴀᴍ
+┃ ⬡  ꜰᴀᴄᴇʙᴏᴏᴋ
+┃ ⬡  yts
+┃ ⬡  ᴛᴡɪᴛᴛᴇʀ
+┃ ⬡  ᴛɪᴋᴛᴏᴋ
+┃ ⬡  happymod
 ╰───────────────߷
- 
- ⟝⟡⟡⟡⟡⟡⟡⟡⟡⟡⟡⟡⟡⟡⟡⟡⟞
- 
-╭──────────────⟞
-┆〘 *TextBooks Available* 〙
-╰──────────────⟞ 
-╭─────────────── ⧉
-┃ ➮ 
-┃ ➮ 
-┃ ➮
-┃ ➮ 
-┃ ➮ 
-┃ ➮ 
-┃ ➮ 
-┃ ➮  
-┃ ➮  
-┃ ➮   
-┃ ➮  
-┃ ➮  
-┃ ➮    
-┃ ➮  
-┃ ➮  
-┃ ➮  
-┃ ➮  
-┃ ➮   
-┃ ➮  
-┃ ➮  
-┃ ➮   
-┃ ➮  
-┃ ➮  
-┃ ➮  
-┃ ➮ 
-┃ ➮  
-┃ ➮  
+
+╭───────────────߷
+┃╭─────────────⟢
+┃╏➮  *ᴏᴡɴᴇʀ*
+┃╰─────────────⟢
+┃  
+┃ ⬡ Addprem
+┃ ⬡ Delprem
+┃ ⬡ Listprem
+┃ ⬡ ᴘᴜʙʟɪᴄ
+┃ ⬡ self
+┃ ⬡ ʀᴇꜱᴛᴀʀᴛ
+┃ ⬡ setppbot
+┃ ⬡ ꜱʟᴇᴇᴘ
+┃ ⬡ ᴊᴏɪɴ
+┃ ⬡ ᴘᴏꜱᴛ
+┃ ⬡ ʟɪꜱᴛɢᴄ
+┃ ⬡ ʟɪꜱᴛᴘᴄ
+┃ ⬡ ʟɪꜱᴛᴏɴʟɪɴᴇ 
+┃ ⬡ ʙʀᴏᴀᴅᴄᴀꜱᴛ
+┃ ⬡ ʙʏᴇ
+┃ ⬡ ʙᴀɴɢʀᴏᴜᴘ 
+┃ ⬡ ʙʟᴏᴄᴋ
+┃ ⬡ ᴜɴʙʟᴏᴄᴋ
+┃ ⬡ ʙᴀɴ ᴀᴅᴅ
+┃ ⬡ ʙᴀɴ ᴅᴇʟ
+┃ ⬡ getcase
 ┃
-┃ © 𝙱𝙾𝚃 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 𝙼𝚁 𝙵𝚁𝙰𝙽𝙺
-┃       𝚂𝚄𝙱𝚉𝙴𝚁𝙾 𝙸𝙽𝙲.
-╰─────────────── ⧉`;
+╰───────────────߷
+╭───────────────߷
+┃╭─────────────⟢
+┃╏➮  *ɢʀᴏᴜᴘ ᴍᴇɴᴜ*
+┃╰─────────────⟢
+┃  
+┃ ⬡ ᴘʀᴏᴍᴏᴛᴇ  
+┃ ⬡ ᴅᴇᴍᴏᴛᴇ  
+┃ ⬡ ɢʀᴏᴜᴘ-ᴇᴠᴇɴᴛ  
+┃ ⬡ ɢʀᴏᴜᴘꜱᴇᴛᴛɪɴɢ
+┃ ⬡ ɢʀᴏᴜᴘʟɪɴᴋ
+┃ ⬡ ɪɴᴠɪᴛᴇ
+┃ ⬡ ᴀᴅᴅ
+┃ ⬡ kick
+┃ ⬡ left
+┃ ⬡ ꜱᴇᴛɴᴀᴍᴇ
+┃ ⬡ ꜱᴇᴛɢᴄᴘᴘ
+┃ ⬡ ꜱᴇᴛᴅᴇꜱᴄ
+┃ ⬡ ʀᴇᴠᴏᴋᴇ
+┃ ⬡ ᴛᴀɢᴀᴅᴍɪɴꜱ
+┃ ⬡ ᴛᴀɢᴀʟʟ
+┃ ⬡ ʜɪᴅᴇᴛᴀɢ
+┃ ⬡ ɴꜱꜰᴡ 
+┃ ⬡ ᴀɴᴛɪʟɪɴᴋɢᴄ 
+┃ ⬡ ᴀɴᴛɪʟɪɴᴋᴛᴛ
+┃ ⬡ ᴀɴᴛɪʟɪɴᴋʏᴛᴄʜ
+┃ ⬡ ᴀɴᴛɪʟɪɴᴋꜰʙ
+┃ ⬡ ᴀɴᴛɪʟɪɴᴋɪɢ
+┃ ⬡ ᴀɴᴛɪʟɪɴᴋᴛᴡɪᴛ
+┃ ⬡ ᴀɴᴛɪᴡᴀᴍᴇ     
+┃ ⬡ ᴀɴᴛɪʟɪɴᴋᴀʟʟ
+┃ ⬡ Kickall
+┃ ⬡ Mute
+┃ ⬡ Unmute
+┃
+╰───────────────߷
+╭───────────────߷
+┃╭─────────────⟢
+┃╏⟣ *ᴄᴏɴᴠᴇʀᴛᴇʀ ᴍᴇɴᴜ*
+┃╰─────────────⟢
+┃  
+┃ ⬡  ꜱᴛɪᴄᴋᴇʀ 
+┃ ⬡  ᴛᴏɪᴍɢ
+┃ ⬡  toimage
+┃ ⬡  ᴛᴏɢɪꜰ
+┃ ⬡  ᴜʀʟ
+┃ ⬡  ᴛᴏᴍᴘ3
+┃ ⬡  ᴛᴏᴀᴜᴅɪᴏ
+┃ ⬡  ᴇᴍᴏᴊɪᴍɪx 
+┃ ⬡  ꜱᴛᴇᴀʟ 
+┃ ⬡  tovv
+┃ ⬡  ʙᴀꜱꜱ  
+┃ ⬡  ᴛᴇᴍᴘᴏ
+┃ ⬡  ʙʟᴏᴡɴ
+┃ ⬡  ʀᴏʙᴏᴛ
+┃ ⬡  ꜱʟᴏᴡ
+┃ ⬡  ꜱQᴜɪʀʀᴇʟ 
+┃ ⬡  ᴅᴇᴇᴘ
+┃ ⬡  ᴇᴀʀʀᴀᴘᴇ
+┃ ⬡  ꜰᴀꜱᴛ 
+┃ ⬡  ꜰᴀᴛ
+┃ ⬡  ɴɪɢʜᴛᴄᴏʀᴇ
+┃ ⬡  ʀᴇᴠᴇʀꜱᴇ  
+┃ 
+┃
+╰───────────────߷
+╭───────────────߷
+┃╭─────────────⟢
+┃╏➮  *ʙᴜɢ ᴍᴇɴᴜ*
+┃╰─────────────⟢
+┃  
+┃ ⬡ ʙᴜɢ1
+┃ ⬡ ʙᴜɢ2
+┃ ⬡ ʙᴜɢ3
+┃ ⬡ ʙᴜɢ4
+┃ ⬡ ʙᴜɢ5
+┃ ⬡ ʙʀᴜᴛᴇᴀᴅᴍɪɴ
+┃ ⬡ ᴄʀᴜsʜɢʀᴏᴜᴘ
+┃ ⬡ ᴛᴇᴍᴘʙᴀɴ
+┃ ⬡ ᴜɴʙᴀɴ
+┃ ⬡ 
+┃ ⬡  ᴍᴏʀᴇ ʙᴜɢs ᴄᴏᴍɪɴ sᴏᴏɴ...
+┃ ⬡ 
+┃     ➮ *𝚂𝚄𝙱𝚉𝙴𝚁𝙾 𝙼𝚄𝙻𝚃𝙸 𝙳𝙴𝚅𝙸𝙲𝙴 𝚅3*
+┃ ⬡
+╰───────────────߷   
+         
+> ➮ © ᴍ ʀ   ғ ʀ ᴀ ɴ ᴋ   ᴏ ғ ᴄ 
+_________________________`;
 
           let msg = generateWAMessageFromContent(m.key.remoteJid, {
             viewOnceMessage: {
@@ -6885,13 +7008,13 @@ Hi😊,  ${pushname}*
                     text: helpMenuText
                   }),
                   footer: proto.Message.InteractiveMessage.Footer.create({
-                    text: "            © 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 𝙼𝚁 𝙵𝚁𝙰𝙽𝙺 "
+                    text: " © 𝚂𝚄𝙱𝚉𝙴𝚁𝙾 𝙼𝚄𝙻𝚃𝙸 𝙳𝙴𝚅𝙸𝙲𝙴 \n https://mucheri-inc.vercel.app"
                   }),
                   header: proto.Message.InteractiveMessage.Header.create({
-                    ...(await prepareWAMessageMedia({ image: { url: 'https://i.postimg.cc/R0kQ0Xdb/IMG-20240322-WA0000.png' } }, { upload: Subzero.waUploadToServer })),
+                    ...(await prepareWAMessageMedia({ image: { url: 'https://i.postimg.cc/0jDLndZm/transactional-chatbots.png' } }, { upload: Subzero.waUploadToServer })),
 
 
-                    title: "                      Textbooks list",
+                    title: "                      Functions list",
                     subtitle: "Browse through the available commands",
                     hasMediaAttachment: false
                   }),
@@ -6899,61 +7022,22 @@ Hi😊,  ${pushname}*
                     buttons: [
                       {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"OWNER🛸","id":'${prefix}owner'}`
+                        "buttonParamsJson": `{"display_text":"OWNER","id":'pay'}`
                       },
                       
                       {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"ENGLISH 🤓","id":'english'}`
+                        "buttonParamsJson": `{"display_text":"LISTMENU","id":'check'}`
                       },
-                     
-                     {
-                        "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"GEOGRAPHY 🏜","id":'geo'}`
-                      },
+                      
                       
                       {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"ACCOUNTS 📖","id":'acc'}`
+                        "buttonParamsJson": `{"display_text":"ABOUT","id":'credit'}`
                       },
                       
-                      {
-                        "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"SHONA 🐦","id":'shona'}`
-                      },
                       
-                      {
-                        "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"BOILOGY ☃️","id":'${prefix}bio'}`
-                      },
-                      
-                      {
-                        "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"CHEMISTRY 🗻","id":'${prefix}chem'}`
-                      },
-                      
-                      {
-                        "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"PHYSICS 🌋","id":'physics'}`
-                      },
-                      
-		              {
-                        "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"HISTORY 📑","id":'history'}`
-                      },
-                      
-			
-               {
-                        "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"PRACTICALS 🐾","id":'pracs'}`
-                      },
-                      
-
-		         {
-                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"MORE BOOKS 📚","id":'books'}`
-                      },
-                    ]
+                      ]
                   })
                 })
               }

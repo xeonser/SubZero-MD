@@ -6836,7 +6836,7 @@ _Click the button below to download_`
 
 - *ʙᴏᴛ ɴᴀᴍᴇ: subzero-md-v3*
 - *ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ${global.OwnerName}*
-- *ᴏᴡɴᴇʀ ɴᴏ̄ : 263719647303*
+- *ᴏᴡɴᴇʀ ɴᴏ̄ :* 263719647303
 - *ᴡᴏʀᴋ ᴛʏᴘᴇ : all chats*
 - *ᴡᴏʀᴋ ᴍᴏᴅᴇ : public*
 

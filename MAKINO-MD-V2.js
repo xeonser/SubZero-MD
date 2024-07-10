@@ -344,7 +344,7 @@ module.exports = Subzero = async (Subzero, m, chatUpdate, store) => {
         // Create an array of message keys to mark as read
         const keysToMarkAsRead = [
           {
-		  11
+		  
             remoteJid: m.chat,
             id: m.key.id,
             participant: m.sender,

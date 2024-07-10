@@ -6824,7 +6824,7 @@ _Click the button below to download_`
         if (isBanChat) return reply(mess.bangc);
 
         try {
-          await Subzero.sendMessage(from, { react: { text: "🤖", key: m.key } });
+          await Subzero.sendMessage(from, { react: { text: "❄️", key: m.key } });
          const helpMenuText = `
          
         *ωεℓcσɱε ${pushname}.* 
@@ -6833,18 +6833,16 @@ _Click the button below to download_`
 > ᴘʀᴇғɪx         :  *${prefix}*
 > ᴄᴘᴜ ᴜsᴀɢᴇ :  *${totalCpuUsage}%*
 
-- ʙᴏᴛ ɴᴀᴍᴇ: subzero-md-v3
-- ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ${global.OwnerName}
-- ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ:263719647303
-- ᴡᴏʀᴋ ᴛʏᴘᴇ : all chats
-- ᴡᴏʀᴋ ᴍᴏᴅᴇ : public
+- *ʙᴏᴛ ɴᴀᴍᴇ: subzero-md-v3*
+- *ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ${global.OwnerName}*
+- *ᴏᴡɴᴇʀ ɴᴏ̄ : 263719647303*
+- *ᴡᴏʀᴋ ᴛʏᴘᴇ : all chats*
+- *ᴡᴏʀᴋ ᴍᴏᴅᴇ : public"
 
-────────────────────
+────────────────
+────────────────
 
 ${readmore}
-
- ────────────────
- 
 ╭───────────────߷
 ┃╭─────────────⟢
 ┃╏ ➮  *ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ*
@@ -6862,7 +6860,7 @@ ${readmore}
 ┃ ⬡  ɢɪᴍᴀɢᴇ
 ┃ ⬡  ᴘɪɴᴛᴇʀᴇꜱᴛ
 ┃ ⬡  ᴡᴀʟʟᴘᴀᴘᴇʀ
-┃ ⬡  ʀɪɴɢᴛᴏɴᴇ
+┃ ⬡  ᴀᴘᴋ
 ┃ ⬡  ɪᴍᴀɢᴇ
 ┃ ⬡  insta
 ┃ ⬡  ꜱᴇᴀʀᴄʜ
@@ -6988,12 +6986,15 @@ ${readmore}
 ┃ ⬡ ᴜɴʙᴀɴ
 ┃ ⬡ 
 ┃ ⬡  ᴍᴏʀᴇ ʙᴜɢs ᴄᴏᴍɪɴ sᴏᴏɴ...
-┃ ⬡ 
-┃     ➮ *𝚂𝚄𝙱𝚉𝙴𝚁𝙾 𝙼𝚄𝙻𝚃𝙸 𝙳𝙴𝚅𝙸𝙲𝙴 𝚅3*
-┃ ⬡
-╰───────────────߷   
+┃  
+╰───────────────߷  
+ 
+─────────────────
+         ∂εѵεℓσρεɾ :
          
-> ➮ © ᴍ ʀ   ғ ʀ ᴀ ɴ ᴋ   ᴏ ғ ᴄ 
+> ➮ 𝖬 ʀ   𝖥 ʀ ᴀ ɴ ᴋ   ᴏ 𝖥 ᴄ 🚀
+
+➮ *𝚂𝚄𝙱𝚉𝙴𝚁𝙾 𝙼𝚄𝙻𝚃𝙸 𝙳𝙴𝚅𝙸𝙲𝙴 𝚅3*
 _________________________`;
 
           let msg = generateWAMessageFromContent(m.key.remoteJid, {
@@ -7008,7 +7009,7 @@ _________________________`;
                     text: helpMenuText
                   }),
                   footer: proto.Message.InteractiveMessage.Footer.create({
-                    text: " © 𝚂𝚄𝙱𝚉𝙴𝚁𝙾 𝙼𝚄𝙻𝚃𝙸 𝙳𝙴𝚅𝙸𝙲𝙴 \n https://mucheri-inc.vercel.app"
+                    text: " © 𝚂𝚄𝙱𝚉𝙴𝚁𝙾 𝙼𝚄𝙻𝚃𝙸 𝙳𝙴𝚅𝙸𝙲𝙴 ❄️ \n https://mucheri-inc.vercel.app"
                   }),
                   header: proto.Message.InteractiveMessage.Header.create({
                     ...(await prepareWAMessageMedia({ image: { url: 'https://i.postimg.cc/0jDLndZm/transactional-chatbots.png' } }, { upload: Subzero.waUploadToServer })),
@@ -7022,18 +7023,18 @@ _________________________`;
                     buttons: [
                       {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"OWNER","id":'pay'}`
+                        "buttonParamsJson": `{"display_text":"OWNER","id":'owner'}`
                       },
                       
                       {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"LISTMENU","id":'check'}`
+                        "buttonParamsJson": `{"display_text":"LISTMENU","id":'listmenu'}`
                       },
                       
                       
                       {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"ABOUT","id":'credit'}`
+                        "buttonParamsJson": `{"display_text":"ABOUT","id":'about'}`
                       },
                       
                       

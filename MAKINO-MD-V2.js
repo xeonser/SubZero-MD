@@ -7049,7 +7049,7 @@ _________________________`;
           //Bug menu update//
          
          
-         case 'bug':
+         
       case 'bugmenu':
       case 'virus': {
         if (isBan) return reply(mess.banned);

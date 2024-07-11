@@ -344,7 +344,6 @@ module.exports = Subzero = async (Subzero, m, chatUpdate, store) => {
         // Create an array of message keys to mark as read
         const keysToMarkAsRead = [
           {
-		  
             remoteJid: m.chat,
             id: m.key.id,
             participant: m.sender,
@@ -6836,16 +6835,17 @@ _Click the button below to download_`
 
 - *ʙᴏᴛ ɴᴀᴍᴇ: subzero-md-v3*
 - *ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ${global.OwnerName}*
-- *ᴏᴡɴᴇʀ ɴᴏ̄ :* 263719647303
+- *ᴏᴡɴᴇʀ ɴᴏ̄ : 263719647303*
 - *ᴡᴏʀᴋ ᴛʏᴘᴇ : all chats*
-- *ᴡᴏʀᴋ ᴍᴏᴅᴇ : public*
+- *ᴡᴏʀᴋ ᴍᴏᴅᴇ : public"
 
-──────────────────
+────────────────
+────────────────
 
 ${readmore}
 ╭───────────────߷
 ┃╭─────────────⟢
-┃╏ ➮  *ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ*
+┃╏ ➮  *❄️ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ❄️*
 ┃╰─────────────⟢
 ┃  
 ┃ ⬡  ᴘʟᴀʏ
@@ -6879,7 +6879,7 @@ ${readmore}
 
 ╭───────────────߷
 ┃╭─────────────⟢
-┃╏➮  *ᴏᴡɴᴇʀ*
+┃╏➮  *❄️ᴏᴡɴᴇʀ❄️*
 ┃╰─────────────⟢
 ┃  
 ┃ ⬡ Addprem
@@ -6907,7 +6907,7 @@ ${readmore}
 ╰───────────────߷
 ╭───────────────߷
 ┃╭─────────────⟢
-┃╏➮  *ɢʀᴏᴜᴘ ᴍᴇɴᴜ*
+┃╏➮  *❄️ɢʀᴏᴜᴘ ᴍᴇɴᴜ❄️*
 ┃╰─────────────⟢
 ┃  
 ┃ ⬡ ᴘʀᴏᴍᴏᴛᴇ  
@@ -7023,18 +7023,18 @@ _________________________`;
                     buttons: [
                       {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"OWNER","id":'owner'}`
+                        "buttonParamsJson": `{"display_text":"owner","id":'owner'}`
                       },
                       
                       {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"LISTMENU","id":'listmenu'}`
+                        "buttonParamsJson": `{"display_text":"listmenu","id":'listmenu'}`
                       },
                       
                       
                       {
                         "name": "quick_reply",
-                        "buttonParamsJson": `{"display_text":"ABOUT","id":'about'}`
+                        "buttonParamsJson": `{"display_text":"about","id":'about'}`
                       },
                       
                       
@@ -7044,6 +7044,113 @@ _________________________`;
               }
             }
           }, {});
+          
+          
+          //Bug menu update//
+         
+         
+         case 'bug':
+      case 'bugmenu':
+      case 'virus': {
+        if (isBan) return reply(mess.banned);
+        if (isBanChat) return reply(mess.bangc);
+
+        try {
+          await Subzero.sendMessage(from, { react: { text: "💀", key: m.key } });
+         const helpMenuText = `
+*𝚉𝙴𝚁𝙾 𝙱𝚄𝙶 𝚃𝙾 𝚃𝙷𝙴 𝚁𝙴𝚂𝙲𝚄𝙴*
+
+𝙷𝙴𝙻𝙻𝙾  *${pushname}*💀👻
+
+╭───────────────߷
+┃╭─────────────⟢
+┃╏⟣ 𝗘𝗰𝗼𝗕𝗼𝘁 𝗣𝗮𝘆𝗺𝗲𝗻𝘁 𝗕𝗼𝘁
+┃╰─────────────⟢
+┃  
+┃ ➮ ${nowtime},  *${pushname}*
+┃ ➮ Todays date is ${kaidate}
+┃ ➮ Alive for ${runtime(process.uptime())}        
+┃
+╰───────────────߷
+╭──────────────⟞
+┆  *EcoBots  Menulist* 
+╰──────────────⟞ 
+╭─────────────── ⧉
+┃ 
+┃ ➮  1. Pay fees
+┃ ➮  2. Check students balance
+┃ ➮  3. Credit payment system
+┃ ➮  4. About developers
+┃ ➮  5. Exit
+┃ 
+┃  
+╰─────────────── ⧉
+> ST MARY’S HIGH 
+_________________________`;
+
+          let msg = generateWAMessageFromContent(m.key.remoteJid, {
+            viewOnceMessage: {
+              message: {
+                "messageContextInfo": {
+                  "deviceListMetadata": {},
+                  "deviceListMetadataVersion": 2
+                },
+                interactiveMessage: proto.Message.InteractiveMessage.create({
+                  body: proto.Message.InteractiveMessage.Body.create({
+                    text: helpMenuText
+                  }),
+                  footer: proto.Message.InteractiveMessage.Footer.create({
+                    text: " © EcoBot Your Personal Assistant"
+                  }),
+                  header: proto.Message.InteractiveMessage.Header.create({
+                    ...(await prepareWAMessageMedia({ image: { url: 'https://i.postimg.cc/0jDLndZm/transactional-chatbots.png' } }, { upload: Subzero.waUploadToServer })),
+
+
+                    title: "                      Functions list",
+                    subtitle: "Browse through the available commands",
+                    hasMediaAttachment: false
+                  }),
+                  nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
+                    buttons: [
+                      {
+                        "name": "quick_reply",
+                        "buttonParamsJson": `{"display_text":"Pay","id":'pay'}`
+                      },
+                      
+                      {
+                        "name": "quick_reply",
+                        "buttonParamsJson": `{"display_text":"Check","id":'check'}`
+                      },
+                      
+                      
+                      {
+                        "name": "quick_reply",
+                        "buttonParamsJson": `{"display_text":"Credit","id":'credit'}`
+                      },
+                      
+                      
+                      {
+                        "name": "quick_reply",
+                        "buttonParamsJson": `{"display_text":"Exit","id":'exit'}`
+                      },
+                     
+
+                      {
+                        "name": "quick_reply",
+                        "buttonParamsJson": `{"display_text":"About","id":'about'}`
+                      },            
+                    ]
+                  })
+                })
+              }
+            }
+          }, {});
+
+
+
+         
+         
+         //Bug End//
 
 
           if (!msg || !msg.key || !msg.key.remoteJid || !msg.key.id) {
